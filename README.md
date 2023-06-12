@@ -1,4 +1,5 @@
-# Fashionista
+# Getting Started
+
 # Model and Engine
 
 # APIs and Controller
