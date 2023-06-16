@@ -1,11 +1,26 @@
 # Getting Started
+## Front-end Dependencies
+
+The front-end of the Android app relies on the following third-party tools, libraries, and SDKs:
+
+1. [Android Jetpack](https://developer.android.com/jetpack?hl=zh-cn): A set of libraries, tools, and architectural guidance to help build robust and efficient Android apps.
+2. [Nettelo](http://nettelo.com/)：3D Body Scan API
+3. ([Clothware.io](https://www.clothware.io/)：Photo to 3D Cloth)
+4. [Firebase](https://firebase.google.com/?hl=zh-cn): A platform for building mobile and web applications，used as Wishlist/Cart Database
+
+## Back-end Dependencies
+
+The back-end of the Android app relies on the following third-party tools, libraries, SDKs, and APIs:
+
+1. [Google Cloud Functions](https://cloud.google.com/functions?hl=zh-cn): Use for image uploads or user actions to perform backend processing.
+2. [Google Cloud Firestore](https://cloud.google.com/firestore?hl=zh-cn): A database that can be used to store and retrieve user data, such as user profiles, clothing preferences, and shopping history.
 
 # Model and Engine 
-The story map:
+## The story map:
 
+![6.16](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Story%20map%206.16.png)
 
-
-The engine  architecture:
+## The engine  architecture:
 
 ![f7e17b6f84e96c70b28f071315d2584](https://github.com/ZhengyiLu01/Fashionista/assets/63914308/40f73fb5-0a0b-4374-8b17-5b5688cd9786)
 
@@ -21,3 +36,21 @@ The user will firstly take several images of their body, and pick one product on
 # View UI/UX
 
 # Team Roster
+### Chengsong Zhang
+Contributions:
+
+### Chengyu Wu
+Contributions:
+
+### Dongbin Park
+Contributions:
+
+### Helina Fikru Yilma
+Contributions:
+
+### Zhaoting Wu
+Contributions:
+
+### Zhengyi Lu
+Contributions:
+
