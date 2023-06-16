@@ -33,7 +33,9 @@ The user will firstly take several images of their body, and pick one product on
 
 # APIs and Controller
 "Nettelo": This is used to create a 3d body model. The front end 'main' will send the 4 photo to Nettelo. The Nettelo will analyze the photo and create a 3D model, which is sent back to the front end to be confirmed. 
+
 "Clothware.io": Photo to 3D Cloth; Expensive, one garment request at a time.
+
 "FireBase": Wishlist/Cart Database.
 
 If we are using existing OS subsystems or 3rd-party SDKs for implementing the engine, we will interact with them through appropriate adapters or libraries. As scheduled, if we utilize Google Cloud services like Cloud Storage or Cloud Functions, we would interact with their respective SDKs to handle image storage or trigger serverless functions for backend processing.
