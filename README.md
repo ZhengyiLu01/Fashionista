@@ -2,11 +2,11 @@
 
 # Model and Engine 
 The story map:
-
-
+-----
+![6.16](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Story%20map%206.16.png)
 
 The engine  architecture:
-
+-----
 ![f7e17b6f84e96c70b28f071315d2584](https://github.com/ZhengyiLu01/Fashionista/assets/63914308/40f73fb5-0a0b-4374-8b17-5b5688cd9786)
 
 The user will firstly take several images of their body, and pick one product on the front end. The front end will send body images and product ID to `main`. 
