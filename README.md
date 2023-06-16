@@ -18,7 +18,7 @@ The back-end of the Android app relies on the following third-party tools, libra
 # Model and Engine 
 ## The story map:
 
-![6.16](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Story%20map%206.16.png)
+![6.16](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Story%20map_2.png)
 
 ## The engine  architecture:
 
