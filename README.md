@@ -33,16 +33,16 @@ The user will firstly take several images of their body, and pick one product on
 
 # APIs and Controller
 "Nettelo": This is used to create a 3d body model. The front end 'main' will send the 4 photo to Nettelo. The Nettelo will analyze the photo and create a 3D model, which is sent back to the front end to be confirmed. 
-![3D BODY SCAN API]
+[3D BODY SCAN API]
 User inputs MULTIPLE photos for body scanning. Our app sends POST request for these images and sends a GET request to Nettelo's API. Netello sends 200 level code indicating that the request was successful; if failed the API sends 400 code indicating that the request was unsuccessful.
 
-![RETAIL API] (https://cloud.google.com/retail/docs/reference/rest)
+[RETAIL API] (https://cloud.google.com/retail/docs/reference/rest)
 
-![RAPID API] (https://rapidapi.com/)
+[RAPID API] (https://rapidapi.com/)
 Use this API store to integrate APIs easily
 
-![TAOBAO API](https://rapidapi.com/gabrielius.u/api/taobao-api/) 
-![AMAZON PRICE API] (https://rapidapi.com/ebappa1971/api/amazon-price/) : to integrate purchasing and pricing from third part apps for our the stretch goals
+[TAOBAO API](https://rapidapi.com/gabrielius.u/api/taobao-api/) 
+[AMAZON PRICE API] (https://rapidapi.com/ebappa1971/api/amazon-price/): to integrate purchasing and pricing from third part apps for our the stretch goals
 
 "Clothware.io": Photo to 3D Cloth; Expensive, one garment request at a time.
 
