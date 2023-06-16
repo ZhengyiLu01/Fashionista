@@ -1,6 +1,10 @@
 # Getting Started
 
 # Model and Engine 
+The story map:
+
+
+
 The engine  architecture:
 
 ![f7e17b6f84e96c70b28f071315d2584](https://github.com/ZhengyiLu01/Fashionista/assets/63914308/40f73fb5-0a0b-4374-8b17-5b5688cd9786)
