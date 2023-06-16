@@ -32,6 +32,7 @@ The user will firstly take several images of their body, and pick one product on
 
 
 # APIs and Controller
+"Nettelo": This is used to create a 3d body model. The front end 'main' will send the 4 photo to Nettelo. The Nettelo will analyze the photo and create a 3D model, which is sent back to the front end to be confirmed. 
 
 # View UI/UX
 
