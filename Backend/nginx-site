@@ -1,0 +1,35 @@
+server {
+  listen 443 ssl;
+  listen [::]:443 ssl;
+
+  ssl_certificate     /etc/ssl/certs/selfsigned.cert;
+  ssl_certificate_key /etc/ssl/private/selfsigned.key;
+  ssl_protocols TLSv1.2;
+  ssl_ciphers ECDHE-RSA-AES256-GCM-SHA512:DHE-RSA-AES256-GCM-SHA512:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384;
+
+  server_name 39.106.142.25;
+  		
+  location = /favicon.ico { access_log off; log_not_found off; }
+  location /static/ {
+    root /root/441/chatter;
+  }
+
+  location / {
+    include proxy_params;
+    proxy_pass http://unix:/run/gunicorn.sock;
+  }
+  client_max_body_size 10M;
+  location ^~ /media {
+    alias /root/441/chatter/media;
+  }
+}
+
+server {
+  listen 80;
+  listen [::]:80;  # IPv6
+
+  server_name 39.106.142.25;
+
+  return 301 https://$server_name$request_uri; # temporary redirect
+}
+
