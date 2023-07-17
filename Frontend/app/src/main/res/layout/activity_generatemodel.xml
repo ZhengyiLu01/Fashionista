@@ -7,6 +7,21 @@
     tools:context=".Generatemodel">
 
     <Button
+        android:id="@+id/button_ge_back"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/back"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
         android:id="@+id/button_ge3"
         android:layout_width="200dp"
         android:layout_height="50dp"
@@ -64,20 +79,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_ge1" />
 
-    <Button
-        android:id="@+id/button_ge_back"
-        style="@style/Widget.Material3.Button"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginBottom="10dp"
-        android:backgroundTint="#2196F3"
-        android:text="@string/back"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/text_ge1"
@@ -86,13 +87,14 @@
         android:layout_marginBottom="347dp"
         android:background="#2196F3"
         android:backgroundTint="#2196F3"
-        android:gravity="center|center_horizontal"
+        android:gravity="center|center_horizontal|end"
         android:text="@string/generate_models"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button_ge1"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -109,4 +111,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_ge1"
         app:srcCompat="@drawable/model_2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,4 +10,20 @@
     <string name="create_by_photos">Create by photos</string>
     <string name="view_my_models">View my models</string>
     <string name="pic1">Pic1</string>
+    <string name="leg_length">Leg length:</string>
+    <string name="arm_length">Arm length:</string>
+    <string name="waistline">Waistline:</string>
+    <string name="weight">Weight:</string>
+    <string name="height">Height:</string>
+    <string name="cm">cm</string>
+    <string name="please_enter_your_sizes">Please enter your sizes:</string>
+    <string name="kg" />
+    <string name="kg0">kg</string>
+    <string name="generate">Generate</string>
+    <string name="please_upload_your_photos">Please upload your photos:</string>
+    <string name="create_by_photos_title">Create by photos</string>
+    <string name="successfully_generated">Successfully Generated!</string>
+    <string name="back_to_generate">Back to generate</string>
+    <string name="back_to_home_page">Back to home page</string>
+    <string name="my_models">My models</string>
 </resources>

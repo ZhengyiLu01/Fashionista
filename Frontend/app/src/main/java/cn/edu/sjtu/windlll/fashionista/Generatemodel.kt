@@ -27,5 +27,17 @@ class Generatemodel : AppCompatActivity() {
             val intent = Intent(this,Createbysize::class.java);
             startActivity(intent);
         }
+
+        button_ge2 = findViewById(R.id.button_ge2);
+        button_ge2.setOnClickListener{//
+            val intent = Intent(this,Createbyphoto::class.java);
+            startActivity(intent);
+        }
+
+        button_ge3 = findViewById(R.id.button_ge3);
+        button_ge3.setOnClickListener{//
+            val intent = Intent(this,Viewmodel::class.java);
+            startActivity(intent);
+        }
     }
 }

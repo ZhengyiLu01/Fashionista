@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fashionista">
         <activity
+            android:name=".Viewmodel"
+            android:exported="false" />
+        <activity
+            android:name=".Modelsuccess"
+            android:exported="false" />
+        <activity
+            android:name=".Createbyphoto"
+            android:exported="false" />
+        <activity
             android:name=".Createbysize"
             android:exported="false" />
         <activity
