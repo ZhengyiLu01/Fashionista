@@ -1,23 +1,23 @@
 package cn.edu.sjtu.windlll.fashionista
 
 import android.content.Intent
-import android.os.Bundle
-import android.view.View
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.widget.Button
 
+class Createbysize : AppCompatActivity() {
 
-class MainActivity : AppCompatActivity() {
+    lateinit var button_create_back: Button;
 
-    lateinit var button_home1:Button;
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_createbysize)
 
-        button_home1 = findViewById(R.id.button_home1);
-        button_home1.setOnClickListener{//
+        button_create_back = findViewById(R.id.button_create_back);
+        button_create_back.setOnClickListener{//
             val intent = Intent(this,Generatemodel::class.java);
             startActivity(intent);
         }
+
     }
 }

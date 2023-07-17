@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Fashionista</string>
+    <string name="cart">cart</string>
+    <string name="search_try_on"><![CDATA[Search & try-on]]></string>
+    <string name="fashionista">Fashionista</string>
+    <string name="generate_models">Generate models</string>
+    <string name="online_try_on">Online try-on</string>
+    <string name="back">Back</string>
+    <string name="create_by_size">Create by size</string>
+    <string name="create_by_photos">Create by photos</string>
+    <string name="view_my_models">View my models</string>
+    <string name="pic1">Pic1</string>
 </resources>

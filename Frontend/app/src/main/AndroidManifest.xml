@@ -10,8 +10,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Fashionista"
-        tools:targetApi="31">
+        android:theme="@style/Theme.Fashionista">
+        <activity
+            android:name=".Createbysize"
+            android:exported="false" />
+        <activity
+            android:name=".Generatemodel"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
