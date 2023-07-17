@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LinkCart">
+
+    <Button
+        android:id="@+id/button_link_back"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/back"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text_link3"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="52dp"
+        android:singleLine="false"
+        android:text="@string/https_m_tb_cn_h_uaxvmnc"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_link2"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="52dp"
+        android:singleLine="false"
+        android:text="@string/lt_will_provide_the_link_to_the_clothes_you_choose"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_link1"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#2196F3"
+        android:backgroundTint="#2196F3"
+        android:gravity="center|center_horizontal"
+        android:text="@string/link"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

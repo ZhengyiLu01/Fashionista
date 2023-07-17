@@ -33,4 +33,11 @@
     <string name="upload_front">Upload front</string>
     <string name="upload_left">Upload left</string>
     <string name="todo">TODO</string>
+    <string name="product_1">Product 1</string>
+    <string name="price">Price ￥</string>
+    <string name="_45">45</string>
+    <string name="no_cloth_to_check_out">No cloth To Check Out</string>
+    <string name="lt_will_provide_the_link_to_the_clothes_you_choose">lt will provide the link to the clothes you choose:</string>
+    <string name="link">Link</string>
+    <string name="https_m_tb_cn_h_uaxvmnc">https://m.tb.cn/h.UAxvmNc</string>
 </resources>

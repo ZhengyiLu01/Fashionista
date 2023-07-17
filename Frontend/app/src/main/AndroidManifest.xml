@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fashionista">
         <activity
+            android:name=".LinkCart"
+            android:exported="false" />
+        <activity
+            android:name=".Cart"
+            android:exported="false" />
+        <activity
+            android:name=".itemlist_Cart"
+            android:exported="false" />
+        <activity
             android:name=".Permission"
             android:exported="false" />
         <activity
