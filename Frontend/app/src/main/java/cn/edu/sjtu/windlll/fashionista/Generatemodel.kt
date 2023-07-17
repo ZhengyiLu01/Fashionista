@@ -30,7 +30,7 @@ class Generatemodel : AppCompatActivity() {
 
         button_ge2 = findViewById(R.id.button_ge2);
         button_ge2.setOnClickListener{//
-            val intent = Intent(this,Createbyphoto::class.java);
+            val intent = Intent(this,Permission::class.java);
             startActivity(intent);
         }
 

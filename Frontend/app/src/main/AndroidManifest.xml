@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fashionista">
         <activity
+            android:name=".Permission"
+            android:exported="false" />
+        <activity
             android:name=".Viewmodel"
             android:exported="false" />
         <activity

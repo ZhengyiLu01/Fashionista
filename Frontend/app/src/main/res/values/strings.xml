@@ -26,4 +26,11 @@
     <string name="back_to_generate">Back to generate</string>
     <string name="back_to_home_page">Back to home page</string>
     <string name="my_models">My models</string>
+    <string name="refuse_amp_back"><![CDATA[Refuse & back]]></string>
+    <string name="permit_continue"><![CDATA[Permit & continue]]></string>
+    <string name="upload_right">Upload right</string>
+    <string name="upload_back">Upload back</string>
+    <string name="upload_front">Upload front</string>
+    <string name="upload_left">Upload left</string>
+    <string name="todo">TODO</string>
 </resources>
