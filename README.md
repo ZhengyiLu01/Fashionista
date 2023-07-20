@@ -49,6 +49,9 @@ If we are using existing OS subsystems or 3rd-party SDKs for implementing the en
 This initial design provides a basic structure for communication between the front-end and back-end engine, but it's important to note that the specific implementation details may evolve and be refined as the development progresses and additional considerations arise.
 # View UI/UX
 ## UI/UX Flow
+![UI modeling](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/UI%20flow_modeling.png)
+![UI tryon](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/UI%20flow_tryon.png)
+![UI cart](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/UI%20flow_Cart.png)
 
 
 
