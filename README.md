@@ -18,7 +18,7 @@ The back-end of the Android app relies on the following third-party tools, libra
 # Model and Engine 
 ## The story map:
 
-![6.16](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Story%20map_2.png)
+![7.20](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/story%20map_7.12.png)
 
 ## The engine  architecture:
 
@@ -48,6 +48,9 @@ If we are using existing OS subsystems or 3rd-party SDKs for implementing the en
 
 This initial design provides a basic structure for communication between the front-end and back-end engine, but it's important to note that the specific implementation details may evolve and be refined as the development progresses and additional considerations arise.
 # View UI/UX
+## UI/UX Flow
+
+
 
 # Team Roster
 ### Chengsong Zhang
