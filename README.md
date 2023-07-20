@@ -54,9 +54,35 @@ This initial design provides a basic structure for communication between the fro
 ![UI cart](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/UI%20flow_Cart.png)
 ## Usability Test Results
 ### Numerical Results
+Success: 
+All of our test participants were able to do core functions of our app: generating model, trying 
+on a cloth on generated model & adding it to cart.
+Majority of our test particiants (67%) were able to access the camera to generate model. All of 
+our participants used the manual size input function to generate mdel.
+Limitation:
+Data from usability test was incomplete because of how we designed our questions.
+Some functionalities were found to be complicated/time-consuming.
 ![Usabilitytest_1](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Usabilitytest_1.png)
 ### Summary of Findings Qualitatively
 ![Usabilitytest_2](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Usabilitytest_2.png)
+## Final Design Justifications
+### Home Page
+● Using concise buttons for the home page to ensure that users can easily turn to the three functions of our app: modeling, try-on and cart
+● Both suitable for first-time and regular users, they can choose to start from the very beginning steps of modeling or directly search for clothes with existing models
+![Finaljustification_1](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Finaljustification_1.png)
+### Collect Size
+● Add the name of different parameters in front of the entry boxes since in the previous one users can’t see the name once they enter a number
+● Add two new parameters “arm length” and “leg length” to help generate the models.
+![Finaljustification_2](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Finaljustification_2.png)
+### Searching Page
+● Using a more concise searching page for users to get recommendations for clothes choice.
+● Remove the redundant filters from the searching page, only leaving the most important filter: 2D or 3D models
+![Finaljustification_3](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Finaljustification_3.png)
+### Cart
+● Rearranging the filters on the cart: we delete the “Top-rated” filter since it is not important in the cart stage
+● Remove the rating on each clothes and replace it with a “delete” button which enable users to directly delete it instead of decreasing the amount to zero
+● Add the “link” text to help users to find the links
+![Finaljustification_4](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Finaljustification_4.png)
 
 # Team Roster
 ### Chengsong Zhang
