@@ -99,7 +99,7 @@ Implement the cart and link activity for the front-end view.
 
 ### Helina Fikru Yilma
 Contributions:
-Work on Back-end.
+Work on Back-end and Implementing the search Activity for categories of clothes for the front view.
 
 ### Zhaoting Wu
 Contributions:
