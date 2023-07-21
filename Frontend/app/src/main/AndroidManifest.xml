@@ -40,12 +40,26 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".shoppingCart"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"> <!-- or any other AppCompat theme -->
+        </activity>
+        <activity
+            android:name=".ShoppingCartActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"> <!-- or any other AppCompat theme -->
+        </activity>
+        <activity
+            android:name=".ReceiptActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"> <!-- or any other AppCompat theme -->
         </activity>
     </application>
 

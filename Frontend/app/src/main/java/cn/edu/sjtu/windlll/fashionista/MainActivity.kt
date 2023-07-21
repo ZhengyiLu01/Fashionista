@@ -26,5 +26,13 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,itemlist_Cart::class.java);
             startActivity(intent);
         }
+
+        val openCartButton: Button = findViewById(R.id.open_cart_button)
+        openCartButton.setOnClickListener {
+            val intent = Intent(this, ShoppingCartActivity::class.java)
+
+            // Convert the cart items to a serializable or parcelable format
+            startActivity(intent)
+        }
     }
 }
