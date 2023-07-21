@@ -87,19 +87,25 @@ Some functionalities were found to be complicated/time-consuming.
 # Team Roster
 ### Chengsong Zhang
 Contributions:
+Mainly work on Back-end, including initially establishing files for API and data collection. Design the engine architecture.
 
 ### Chengyu Wu
 Contributions:
+Work on the trello body for building cards and set criterias.
 
 ### Dongbin Park
 Contributions:
+Implement the cart and link activity for the front-end view.
 
 ### Helina Fikru Yilma
 Contributions:
+Work on Back-end.
 
 ### Zhaoting Wu
 Contributions:
+Work on front-end.
 
 ### Zhengyi Lu
 Contributions:
+Implement the front-end view, including main activity and body modeling activity. Design UI for home page and generate model part. Help with the cart and link part.
 
