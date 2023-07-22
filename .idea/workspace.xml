@@ -5,20 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70408ec1-2448-458a-8e5d-d405939fb5a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Frontend/app/src/main/java/cn/edu/sjtu/windlll/fashionista/ReceiptActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/app/src/main/java/cn/edu/sjtu/windlll/fashionista/ReceiptRecyclerView/Adapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/app/src/main/java/cn/edu/sjtu/windlll/fashionista/RecyclerView/Adapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/app/src/main/java/cn/edu/sjtu/windlll/fashionista/ShoppingCart.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/app/src/main/java/cn/edu/sjtu/windlll/fashionista/ShoppingCartActivity.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Frontend/app/src/main/res/drawable/no_image_available.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/app/src/main/res/layout/cart_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/app/src/main/res/layout/receipt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/app/src/main/res/layout/recycler_view.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/app/src/main/res/layout/shopping_cart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/app/src/main/java/cn/edu/sjtu/windlll/fashionista/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/app/src/main/java/cn/edu/sjtu/windlll/fashionista/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/app/src/main/java/cn/edu/sjtu/windlll/fashionista/ReceiptActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/app/src/main/java/cn/edu/sjtu/windlll/fashionista/ReceiptActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/app/src/main/java/cn/edu/sjtu/windlll/fashionista/ReceiptRecyclerView/Adapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/app/src/main/java/cn/edu/sjtu/windlll/fashionista/RecyclerView/Adapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/app/src/main/java/cn/edu/sjtu/windlll/fashionista/RecyclerView/Adapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/app/src/main/java/cn/edu/sjtu/windlll/fashionista/ShoppingCart.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/app/src/main/java/cn/edu/sjtu/windlll/fashionista/ShoppingCart.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/app/src/main/java/cn/edu/sjtu/windlll/fashionista/ShoppingCartActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/app/src/main/java/cn/edu/sjtu/windlll/fashionista/ShoppingCartActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/app/src/main/res/layout/cart_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/app/src/main/res/layout/cart_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/app/src/main/res/layout/receipt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/app/src/main/res/layout/receipt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/app/src/main/res/layout/recycler_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/app/src/main/res/layout/receipt_items.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/app/src/main/res/layout/shopping_cart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/app/src/main/res/layout/shopping_cart.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,11 +1,6 @@
 package cn.edu.sjtu.windlll.fashionista
 
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import android.widget.Button
-
 import java.io.Serializable
 
 data class CartItem(
@@ -18,7 +13,7 @@ data class CartItem(
 // Define the data class for the item that will be added to the cart
 
 // Create the shopping cart class
-class shoppingCart {
+class shoppingCart : Serializable{
 
     private val cartItems: MutableList<CartItem> = mutableListOf()
 
@@ -41,6 +36,10 @@ class shoppingCart {
         if (existingItem != null) {
             cartItems.remove(existingItem)
         }
+    }
+
+    fun getTotal(): Double {
+        return cartItems.sumOf { it.price * it.quantity }
     }
 
     fun clearCart() {

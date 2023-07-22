@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/receipt_items"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_width="395dp"
+        android:layout_height="550dp"
         android:layout_above="@+id/total_price"
-        layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        android:layout_marginBottom="12dp"
+        android:scrollbars="vertical" />
 
     <TextView
         android:id="@+id/total_price"
@@ -30,8 +33,19 @@
         android:id="@+id/go_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back to homepage"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="false"
+        android:layout_marginBottom="20dp"
+        android:text="Go back to Cart" />
+
+    <Button
+        android:id="@+id/go_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toEndOf="@+id/go_back"
+        android:text="Back to homepage" />
 
 </RelativeLayout>
