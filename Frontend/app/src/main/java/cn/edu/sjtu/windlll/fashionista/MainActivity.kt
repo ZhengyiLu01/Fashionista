@@ -21,16 +21,15 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent);
         }
 
-        button_home3 = findViewById(R.id.button_home3);
-        button_home3.setOnClickListener{//
-            val intent = Intent(this,itemlist_Cart::class.java);
-            startActivity(intent);
-        }
+//        button_home3 = findViewById(R.id.button_home3);
+//        button_home3.setOnClickListener{//
+//            val intent = Intent(this,itemlist_Cart::class.java);
+//            startActivity(intent);
+//        }
 
-        val openCartButton: Button = findViewById(R.id.open_cart_button)
-        openCartButton.setOnClickListener {
+        button_home3 = findViewById(R.id.button_home3)
+        button_home3.setOnClickListener {
             val intent = Intent(this, ShoppingCartActivity::class.java)
-
             // Convert the cart items to a serializable or parcelable format
             startActivity(intent)
         }

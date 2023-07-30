@@ -14,10 +14,10 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import cn.edu.sjtu.windlll.fashionista.ReceiptActivity
 import cn.edu.sjtu.windlll.fashionista.ShoppingCartActivity
+import cn.edu.sjtu.windlll.fashionista.shoppingCart
 
 class CartItemAdapter(private val items: List<CartItem>) : RecyclerView.Adapter<CartItemAdapter.ViewHolder>() {
     private val mutableItems: MutableList<CartItem> = items.toMutableList()
-
     // ...
 
     // Provide a reference to the views for each data item
@@ -52,9 +52,14 @@ class CartItemAdapter(private val items: List<CartItem>) : RecyclerView.Adapter<
         }
 
         holder.removeButton.setOnClickListener {
-            if (item.quantity > 0) {
+            if (item.quantity > 1) {
                 item.quantity--
                 holder.quantityTextView.text = item.quantity.toString()
+            }
+            else{
+                mutableItems.removeAt(position)
+                item.quantity = 0
+                notifyItemRemoved(position)
             }
         }
         holder.deleteButton.setOnClickListener {
@@ -97,7 +102,6 @@ class ReceiptItemAdapter(private val items: List<CartItem>) : RecyclerView.Adapt
         holder.urLTextView.text = item.url
         val pictureResId = item.picture ?: R.drawable.no_image_available
         holder.pictureImageView.setImageResource(pictureResId)
-
 
     }
 

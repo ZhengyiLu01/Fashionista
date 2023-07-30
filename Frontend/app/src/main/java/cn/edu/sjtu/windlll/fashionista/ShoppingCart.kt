@@ -3,6 +3,8 @@ package cn.edu.sjtu.windlll.fashionista
 
 import java.io.Serializable
 
+
+
 data class CartItem(
     val name: String,
     var quantity: Int,
@@ -31,6 +33,10 @@ class shoppingCart : Serializable{
         return cartItems
     }
 
+    fun deletezeroCartItems() {
+        cartItems.removeAll() { it.quantity == 0 }
+    }
+
     fun removeItemFromCart(itemName: String) {
         val existingItem = cartItems.find { it.name == itemName }
         if (existingItem != null) {
@@ -45,4 +51,5 @@ class shoppingCart : Serializable{
     fun clearCart() {
         cartItems.clear()
     }
+
 }

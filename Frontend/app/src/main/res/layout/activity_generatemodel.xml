@@ -8,7 +8,6 @@
 
     <Button
         android:id="@+id/button_ge_back"
-        style="@style/Widget.Material3.Button"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_marginStart="20dp"

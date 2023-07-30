@@ -16,6 +16,7 @@ import java.io.Serializable
 class ShoppingCartActivity : AppCompatActivity() {
     private val shoppingCart =shoppingCart()
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.shopping_cart)
@@ -27,12 +28,17 @@ class ShoppingCartActivity : AppCompatActivity() {
         val cartItemAdapter = CartItemAdapter(shoppingCart.getCartItems())
         recyclerView.adapter = cartItemAdapter
 
-
         val openReceiptButton: Button = findViewById(R.id.open_receipt_button)
         openReceiptButton.setOnClickListener {
             val intent = Intent(this, ReceiptActivity::class.java)
-
+            shoppingCart.deletezeroCartItems()
             intent.putExtra("shoppingCart", shoppingCart as Serializable)
+            startActivity(intent)
+        }
+
+        val backtohome: Button = findViewById(R.id.Backtohome)
+        backtohome.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }

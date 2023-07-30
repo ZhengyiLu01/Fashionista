@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp">
@@ -10,42 +12,65 @@
         layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:layout_width="395dp"
         android:layout_height="550dp"
-        android:layout_above="@+id/total_price"
-        android:layout_marginBottom="12dp"
-        android:scrollbars="vertical" />
+        android:layout_marginBottom="20dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/total_price"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/total_price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/download_receipt_button"
+        android:layout_marginBottom="10dp"
         android:text="Total Price: "
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/download_receipt_button"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/download_receipt_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/go_back"
-        android:text="Download Receipt" />
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#2196F3"
+        android:text="Download Receipt"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#2196F3"
+        app:iconTint="#2196F3"
+        app:layout_constraintBottom_toTopOf="@+id/go_back"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/go_back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="false"
-        android:layout_marginBottom="20dp"
-        android:text="Go back to Cart" />
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#2196F3"
+        android:text="Go back to Cart"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#2196F3"
+        app:iconTint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/go_home"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="75dp"
-        android:layout_marginBottom="20dp"
-        android:layout_toEndOf="@+id/go_back"
-        android:text="Back to homepage" />
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#2196F3"
+        android:text="Back to Homepage"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#2196F3"
+        app:iconTint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
