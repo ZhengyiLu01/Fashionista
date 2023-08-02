@@ -7,10 +7,7 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.recyclerview.widget.RecyclerView
 import cn.edu.sjtu.windlll.fashionista.RecyclerView.CartItemAdapter
-
-
 import java.io.Serializable
-
 
 
 class ShoppingCartActivity : AppCompatActivity() {
@@ -20,6 +17,8 @@ class ShoppingCartActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.shopping_cart)
+//        val shopItems = intent.getSerializableExtra("shop") as shop
+//        val cartItems = shopItems.getCartItems()
         shoppingCart.addItemToCart("Item 1", 2, 10.0 , "google.com",null)
         shoppingCart.addItemToCart("Item 2", 1,20.0 , "naver.com",null)
         shoppingCart.addItemToCart("Item 3", 3,30.0 , "youtube.com",null)
