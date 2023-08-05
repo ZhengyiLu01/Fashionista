@@ -122,7 +122,11 @@ Work on Back-end and Implementing the search Activity for categories of clothes 
 ### Zhaoting Wu
 Contributions:
 
-Work on front-end.
+Subcontribute to implement the front-end view, main activity and body modeling activity.
+
+Conduct the App running test of front end and debug.
+
+For paperwork, responsible for the challenge part and paper review.
 
 ### Zhengyi Lu
 Contributions:
