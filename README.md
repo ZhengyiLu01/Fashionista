@@ -97,7 +97,12 @@ Work on the trello body for building cards and set criterias.
 
 ### Dongbin Park
 Contributions:
-Implement the cart and link activity for the front-end view.
+Implement the cart and link activity for the front-end view. Added a cart that holds the item chosen, and can have the items changed in quantity including said item. 
+Then, makes a receipt so that the user can remember what they chose, and added a download receipt button that allows the user to keep it saved. Also created the variables 
+of the class cartItem. 
+For paperwork, designed the skeletal product and MVP for story board.  Also made the value proposition comic and the questionaire - questions for the final proposal
+ and the Pretest questions for the UIUX.
+
 
 ### Helina Fikru Yilma
 Contributions:
