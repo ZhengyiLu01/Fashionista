@@ -43,6 +43,8 @@ User inputs MULTIPLE photos for body scanning. Our app sends POST request for th
 [TAOBAO API](https://rapidapi.com/gabrielius.u/api/taobao-api/) and [AMAZON PRICE API](https://rapidapi.com/ebappa1971/api/amazon-price/): to integrate purchasing and pricing from third part apps for our the stretch goals
 
 "Clothware.io": Photo to 3D Cloth; Expensive, one garment request at a time.
+"Avaturn": to create 3D avatar based on input measurements https://docs.avaturn.me/docs/integration/sdk/introduction/
+"ReadyPlayer me": Interactive avatar capbaple of cloth chnage https://docs.readyplayer.me/
 
 "FireBase": Wishlist/Cart Database.
 
