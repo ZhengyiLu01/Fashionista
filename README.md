@@ -43,6 +43,8 @@ User inputs MULTIPLE photos for body scanning. Our app sends POST request for th
 [TAOBAO API](https://rapidapi.com/gabrielius.u/api/taobao-api/) and [AMAZON PRICE API](https://rapidapi.com/ebappa1971/api/amazon-price/): to integrate purchasing and pricing from third part apps for our the stretch goals
 
 "Clothware.io": Photo to 3D Cloth; Expensive, one garment request at a time.
+"Avaturn": to create 3D avatar based on input measurements https://docs.avaturn.me/docs/integration/sdk/introduction/
+"ReadyPlayer me": Interactive avatar capbaple of cloth chnage https://docs.readyplayer.me/
 
 "FireBase": Wishlist/Cart Database.
 
@@ -70,58 +72,85 @@ Some functionalities were found to be complicated/time-consuming.
 ## Final Design Justifications
 ### Home Page
 ● Using concise buttons for the home page to ensure that users can easily turn to the three functions of our app: modeling, try-on and cart
+
 ● Both suitable for first-time and regular users, they can choose to start from the very beginning steps of modeling or directly search for clothes with existing models
 ![Finaljustification_1](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Finaljustification_1.png)
 ### Collect Size
 ● Add the name of different parameters in front of the entry boxes since in the previous one users can’t see the name once they enter a number
+
 ● Add two new parameters “arm length” and “leg length” to help generate the models.
 ![Finaljustification_2](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Finaljustification_2.png)
 ### Searching Page
 ● Using a more concise searching page for users to get recommendations for clothes choice.
+
 ● Remove the redundant filters from the searching page, only leaving the most important filter: 2D or 3D models
 ![Finaljustification_3](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Finaljustification_3.png)
 ### Cart
 ● Rearranging the filters on the cart: we delete the “Top-rated” filter since it is not important in the cart stage
+
 ● Remove the rating on each clothes and replace it with a “delete” button which enable users to directly delete it instead of decreasing the amount to zero
+
 ● Add the “link” text to help users to find the links
 ![Finaljustification_4](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Finaljustification_4.png)
 
 # Team Roster
 ### Chengsong Zhang
 Contributions:
+
 Mainly work on Back-end, including initially establishing files for API and data collection. Design the engine architecture.
 
 ### Chengyu Wu
 Contributions:
-Work on the trello body for building cards and set criterias.
+
+Work on the trello body for building cards and set criterias. Arrange Utibility tests with other group and edit the video.
 
 ### Dongbin Park
 Contributions:
+
 Implement the cart and link activity for the front-end view. Added a cart that holds the item chosen, and can have the items changed in quantity including said item. 
-Then, makes a receipt so that the user can remember what they chose, and added a download receipt button that allows the user to keep it saved. Also created the variables 
-of the class cartItem. 
-For paperwork, designed the skeletal product and MVP for story board.  Also made the value proposition comic and the questionaire - questions for the final proposal
- and the Pretest questions for the UIUX.
+
+Then, makes a receipt so that the user can remember what they chose, and added a download receipt button that allows the user to keep it saved. Also created the variables of the class cartItem. 
+
+For paperwork, designed the skeletal product and MVP for story board. Also made the value proposition comic and the questionaire - questions for the final proposal and the Pretest questions for the UIUX.
 
 
 ### Helina Fikru Yilma
 Contributions:
+
 Work on Back-end and Implementing the search Activity for categories of clothes for the front view.
 
 ### Zhaoting Wu
 Contributions:
-Work on front-end.
+
+Subcontribute to implement the front-end view, main activity and body modeling activity.
+
+Conduct the App running test of front end and debug.
+
+For paperwork, responsible for the challenge part and paper review.
 
 ### Zhengyi Lu
 Contributions:
+
 For code part, implement the front-end view, including main activity and body modeling activity. Generate an initial structure for the Shopping activity.
+
 Design UI for home page and generate model part. Design the whole structure of the app, including the page transition flow.
+
 Help with the cart and link part. Improve the cart UI to make it consistant with the whole app. Help debug with the data transmission between cart and the receipt.
+
 For paperwork, design the texts and slides for all presentations. Write the UI/UX part in the final document.
 
-##Challenges:
+## Challenges
 
 1.	Generate model for the users by entering the body data of users.
 2.	Offering the 2D and 3D model of clothes.
 3.	Combine the body model and clothes model to show the try-on effect of users.
 4.	Generate model for the users by taking pictures of users.
+5.  Connecting two different classes that share the same item.
+
+    Solved by using mutable List.
+6.  Deciding what variables to implement.
+
+    Made sure to make each item contain a name, price, rating, category, etc.
+7. How to make a download button for the receipt, and make each picture seperate instead of overwriting each other for each save.
+
+    Used the output file function to create a picture. For each picture, added a timestamp of when the screenshot was taken so that multiple receipts could be saved.
