@@ -95,7 +95,7 @@ Mainly work on Back-end, including initially establishing files for API and data
 
 ### Chengyu Wu
 Contributions:
-Work on the trello body for building cards and set criterias.
+Work on the trello body for building cards and set criterias. Arrange Utibility tests with other group and edit the video.
 
 ### Dongbin Park
 Contributions:
