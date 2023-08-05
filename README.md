@@ -73,7 +73,6 @@ Some functionalities were found to be complicated/time-consuming.
 ### Home Page
 ● Using concise buttons for the home page to ensure that users can easily turn to the three functions of our app: modeling, try-on and cart
 
-
 ● Both suitable for first-time and regular users, they can choose to start from the very beginning steps of modeling or directly search for clothes with existing models
 ![Finaljustification_1](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Finaljustification_1.png)
 ### Collect Size
@@ -97,34 +96,43 @@ Some functionalities were found to be complicated/time-consuming.
 # Team Roster
 ### Chengsong Zhang
 Contributions:
+
 Mainly work on Back-end, including initially establishing files for API and data collection. Design the engine architecture.
 
 ### Chengyu Wu
 Contributions:
+
 Work on the trello body for building cards and set criterias. Arrange Utibility tests with other group and edit the video.
 
 ### Dongbin Park
 Contributions:
+
 Implement the cart and link activity for the front-end view. Added a cart that holds the item chosen, and can have the items changed in quantity including said item. 
-Then, makes a receipt so that the user can remember what they chose, and added a download receipt button that allows the user to keep it saved. Also created the variables 
-of the class cartItem. 
-For paperwork, designed the skeletal product and MVP for story board.  Also made the value proposition comic and the questionaire - questions for the final proposal
- and the Pretest questions for the UIUX.
+
+Then, makes a receipt so that the user can remember what they chose, and added a download receipt button that allows the user to keep it saved. Also created the variables of the class cartItem. 
+
+For paperwork, designed the skeletal product and MVP for story board. Also made the value proposition comic and the questionaire - questions for the final proposal and the Pretest questions for the UIUX.
 
 
 ### Helina Fikru Yilma
 Contributions:
+
 Work on Back-end and Implementing the search Activity for categories of clothes for the front view.
 
 ### Zhaoting Wu
 Contributions:
+
 Work on front-end.
 
 ### Zhengyi Lu
 Contributions:
+
 For code part, implement the front-end view, including main activity and body modeling activity. Generate an initial structure for the Shopping activity.
+
 Design UI for home page and generate model part. Design the whole structure of the app, including the page transition flow.
+
 Help with the cart and link part. Improve the cart UI to make it consistant with the whole app. Help debug with the data transmission between cart and the receipt.
+
 For paperwork, design the texts and slides for all presentations. Write the UI/UX part in the final document.
 
 ## Challenges
