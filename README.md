@@ -116,3 +116,7 @@ For paperwork, design the texts and slides for all presentations. Write the UI/U
 
 ##Challenges:
 
+1.	Generate model for the users by entering the body data of users.
+2.	Offering the 2D and 3D model of clothes.
+3.	Combine the body model and clothes model to show the try-on effect of users.
+4.	Generate model for the users by taking pictures of users.
