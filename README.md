@@ -114,9 +114,15 @@ Design UI for home page and generate model part. Design the whole structure of t
 Help with the cart and link part. Improve the cart UI to make it consistant with the whole app. Help debug with the data transmission between cart and the receipt.
 For paperwork, design the texts and slides for all presentations. Write the UI/UX part in the final document.
 
-##Challenges:
+## Challenges
 
 1.	Generate model for the users by entering the body data of users.
 2.	Offering the 2D and 3D model of clothes.
 3.	Combine the body model and clothes model to show the try-on effect of users.
 4.	Generate model for the users by taking pictures of users.
+5.  Connecting two different classes that share the same item.
+    Solved by using mutable List.
+6.  Deciding what variables to implement.
+    Made sure to make each item contain a name, price, rating, category, etc.
+7. How to make a download button for the receipt, and make each picture seperate instead of overwriting each other for each save.
+    Used the output file function to create a picture. For each picture, added a timestamp of when the screenshot was taken so that multiple receipts could be saved.
