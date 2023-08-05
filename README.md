@@ -126,8 +126,13 @@ For paperwork, design the texts and slides for all presentations. Write the UI/U
 3.	Combine the body model and clothes model to show the try-on effect of users.
 4.	Generate model for the users by taking pictures of users.
 5.  Connecting two different classes that share the same item.
+
     Solved by using mutable List.
+
 6.  Deciding what variables to implement.
+
     Made sure to make each item contain a name, price, rating, category, etc.
+    
 7. How to make a download button for the receipt, and make each picture seperate instead of overwriting each other for each save.
+
     Used the output file function to create a picture. For each picture, added a timestamp of when the screenshot was taken so that multiple receipts could be saved.
