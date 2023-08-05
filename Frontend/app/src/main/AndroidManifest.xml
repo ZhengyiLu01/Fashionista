@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
 
     <application
         android:allowBackup="true"
@@ -49,21 +51,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".shoppingCart"> <!-- or any other AppCompat theme -->
-        </activity>
-        <activity
-            android:name=".shop"> <!-- or any other AppCompat theme -->
-        </activity>
-        <activity
-            android:name=".ShopActivity"> <!-- or any other AppCompat theme -->
-        </activity>
-        <activity
-            android:name=".ShoppingCartActivity"> <!-- or any other AppCompat theme -->
-        </activity>
-        <activity
-            android:name=".ReceiptActivity"> <!-- or any other AppCompat theme -->
         </activity>
     </application>
 
