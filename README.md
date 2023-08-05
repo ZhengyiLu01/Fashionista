@@ -72,19 +72,24 @@ Some functionalities were found to be complicated/time-consuming.
 ## Final Design Justifications
 ### Home Page
 ● Using concise buttons for the home page to ensure that users can easily turn to the three functions of our app: modeling, try-on and cart
+
 ● Both suitable for first-time and regular users, they can choose to start from the very beginning steps of modeling or directly search for clothes with existing models
 ![Finaljustification_1](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Finaljustification_1.png)
 ### Collect Size
 ● Add the name of different parameters in front of the entry boxes since in the previous one users can’t see the name once they enter a number
+
 ● Add two new parameters “arm length” and “leg length” to help generate the models.
 ![Finaljustification_2](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Finaljustification_2.png)
 ### Searching Page
 ● Using a more concise searching page for users to get recommendations for clothes choice.
+
 ● Remove the redundant filters from the searching page, only leaving the most important filter: 2D or 3D models
 ![Finaljustification_3](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Finaljustification_3.png)
 ### Cart
 ● Rearranging the filters on the cart: we delete the “Top-rated” filter since it is not important in the cart stage
+
 ● Remove the rating on each clothes and replace it with a “delete” button which enable users to directly delete it instead of decreasing the amount to zero
+
 ● Add the “link” text to help users to find the links
 ![Finaljustification_4](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Finaljustification_4.png)
 
@@ -130,11 +135,9 @@ For paperwork, design the texts and slides for all presentations. Write the UI/U
 5.  Connecting two different classes that share the same item.
 
     Solved by using mutable List.
-
 6.  Deciding what variables to implement.
 
     Made sure to make each item contain a name, price, rating, category, etc.
-    
 7. How to make a download button for the receipt, and make each picture seperate instead of overwriting each other for each save.
 
     Used the output file function to create a picture. For each picture, added a timestamp of when the screenshot was taken so that multiple receipts could be saved.
