@@ -48,4 +48,12 @@
     <string name="minus">-</string>
     <string name="delete">Delete</string>
     <string name="add_to_cart">Add to cart</string>
+    <string-array name="sorting_options">
+        <item>Sort by Name</item>
+        <item>Sort by Category</item>
+        <item>Sort by Cheapest</item>
+        <item>Sort by Expensive</item>
+        <item>Sort by Shop</item>
+        <item>Sort by Rating</item>
+    </string-array>
 </resources>

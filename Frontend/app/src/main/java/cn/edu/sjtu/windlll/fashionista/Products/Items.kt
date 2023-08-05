@@ -9,5 +9,8 @@ data class Items(
     val url: String,
     val rating: Double,
     val picture: Int?,
-    var ifincart: Int
-): Serializable
+    val category: String,
+    var ifincart: Int,
+
+
+    ): Serializable

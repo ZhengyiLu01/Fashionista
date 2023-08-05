@@ -19,9 +19,9 @@ class ShoppingCartActivity : AppCompatActivity() {
         setContentView(R.layout.shopping_cart)
 //        val shopItems = intent.getSerializableExtra("shop") as shop
 //        val cartItems = shopItems.getCartItems()
-        shoppingCart.addItemToCart("Item 1", 2, 10.0 , "google.com",null)
-        shoppingCart.addItemToCart("Item 2", 1,20.0 , "naver.com",null)
-        shoppingCart.addItemToCart("Item 3", 3,30.0 , "youtube.com",null)
+        shoppingCart.addItemToCart("Item 1", 2, 10.0 , "google.com",null, "shirts")
+        shoppingCart.addItemToCart("Item 2", 1,20.0 , "naver.com",null, "shirts")
+        shoppingCart.addItemToCart("Item 3", 3,30.0 , "youtube.com",null, "shirts")
 
         val recyclerView: RecyclerView = findViewById(R.id.recycler_view)
         val cartItemAdapter = CartItemAdapter(shoppingCart.getCartItems())

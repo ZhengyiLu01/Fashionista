@@ -11,8 +11,8 @@ class shoppingCart : Serializable{
 
     private val cartItems: MutableList<CartItem> = mutableListOf()
 
-    fun addItemToCart(itemName: String, quantity: Int, price: Double, url: String, picture: Int?) {
-        val item = CartItem(itemName, quantity, price, url, picture)
+    fun addItemToCart(itemName: String, quantity: Int, price: Double, url: String, picture: Int?, category: String) {
+        val item = CartItem(itemName, quantity, price, url, picture, category)
         val existingItem = cartItems.find { it.name == itemName }
         if (existingItem != null) {
             existingItem.quantity += quantity

@@ -10,8 +10,8 @@ class shop : Serializable {
 
     var size = 0;
 
-    fun addItemToShop(Id: Int, itemName: String, price: Double, url: String, Rating: Double, picture: Int?) {
-        val item = Items(Id, itemName, price, url, Rating, picture, 0)
+    fun addItemToShop(Id: Int, itemName: String, price: Double, url: String, Rating: Double, picture: Int?, Cat: String) {
+        val item = Items(Id, itemName, price, url, Rating, picture, Cat ,0)
         val existingItem = ShopItems.find { it.name == itemName }
         if (existingItem == null) {
             ShopItems.add(item)
@@ -20,6 +20,12 @@ class shop : Serializable {
     }
     fun getShopItems(): List<Items> {
         return ShopItems
+    }
+
+    fun setShopItems(items: List<Items>) {
+        ShopItems.clear() // Clear existing items
+        ShopItems.addAll(items) // Add the new sorted items
+        size = ShopItems.size // Update the size
     }
 
     fun getCartItems(): List<CartItem> {
@@ -31,7 +37,8 @@ class shop : Serializable {
                     1,
                     ShopItems[i].price,
                     ShopItems[i].url,
-                    ShopItems[i].picture
+                    ShopItems[i].picture,
+                    ShopItems[i].category
                 )
             }
         }
@@ -41,7 +48,7 @@ class shop : Serializable {
     fun removeItemFromShop(itemName: String) {
         val existingItem = ShopItems.find { it.name == itemName }
         if (existingItem != null) {
-           ShopItems.remove(existingItem)
+            ShopItems.remove(existingItem)
         }
     }
 

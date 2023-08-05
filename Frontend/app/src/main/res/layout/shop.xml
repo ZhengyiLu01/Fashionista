@@ -4,15 +4,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Spinner
+        android:id="@+id/sort_spinner"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="100dp" />
+
     <Button
-        android:id="@+id/Backtohome"
-        android:layout_width="220dp"
-        android:layout_height="60dp"
-        android:layout_alignParentStart="true"
+        android:id="@+id/goToSC"
+        android:layout_width="175dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="false"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="122dp"
-        android:layout_marginEnd="110dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="22dp"
+        android:backgroundTint="#2196F3"
+        android:text="Shopping Cart"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#2196F3"
+        android:textSize="16sp"
+        app:iconTint="#2196F3" />
+
+    <Button
+        android:id="@+id/backtohome"
+        android:layout_width="175dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="216dp"
         android:layout_marginBottom="22dp"
         android:backgroundTint="#2196F3"
         android:text="Back to home"
@@ -30,10 +54,17 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="22dp"
         android:layout_marginBottom="110dp"
         android:scrollbars="vertical"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    <TextView
+        android:id="@+id/editTextText"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:ems="10"
+        android:text="Sort By:" />
 
 </RelativeLayout>
