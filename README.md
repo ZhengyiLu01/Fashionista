@@ -117,7 +117,7 @@ For paperwork, designed the skeletal product and MVP for story board. Also made 
 ### Helina Fikru Yilma
 Contributions:
 
-Resposnible on Back-end. Implemented the search Activity for categories of clothes for the front-end. Tried to implement 3D rendering of clothes using Filament.
+Implemented the search Activity for categories of clothes for the front-end. Tried to implement 3D rendering of clothes using Filament. Tried creating categories of clothes and product list for both frontend and backend(Postgresql and Firebase).
 
 For paperwork, contributed in all presentation including this read me file. Also contributed in designing UI interface and whole of the ux chart.
 
@@ -157,11 +157,8 @@ For paperwork, design the texts and slides for all presentations. Write the UI/U
 
     Used the output file function to create a picture. For each picture, added a timestamp of when the screenshot was taken so that multiple receipts could be saved.
    8. Integrating APIs and SDKs for first time
-
-As beginner into back end development, integrating APIs for 3D model was challenging task. 
+      As beginner into back end development, integrating APIs for 3D model was challenging task. 
 Human 3D model Avatar using custom size is not as readily available as assumed at the beginning of the semester.
-The available 3D model APIs for clothing were either very expensive or at early stage of development. As far as our research goes, there is no completely free easy to integrate api for clothes yet.
-Our approach to tackle this was 
-To use APIs and 3DKs designed for game developers as a substitute. We tried Avaturn and ReadyPlayerMe platforms. But both required WebView and additional 3D rendering with Filament, SurfaceView or other library. The main problem however was the avatars were not accurate body measurements, which is the core value proposition of our app.
-To use websites that generated body simulation such as Bodyvisualizer and 3D Humam body Generator. These websites generated 3D human body just like what we wanted, however the main issue is the websites don't have API. Our option was now either websraping or using AI tools. To web scrape using beautifulsoup on our back end and retrieve the 3D objects. Setting the ethics aside, however this wasn't working, since the 3D objects needed to be generated based on our inputs. 
- The remaining potential option(which we couldn't realize due to time constraint) is to train a custom robot in browser.ai, and use it to fill the forms and download the 3D model from those websites. If this is possible, we could use our back end to to get the data from user and render the 3D model and send it to the frontend
+The available 3D model APIs for clothing were either very expensive or at early stage of development. As far as our research goes, there is no completely free easy to integrate api for clothes yet.Our approach to tackle this was:
+1.To use APIs and SDKs designed for game developers as a substitute. We tried Avaturn and ReadyPlayerMe platforms. But both required WebView and additional 3D rendering with Filament, SurfaceView or other library. The main problem however was the avatars were not accurate body measurements, which is the core value proposition of our app.
+2. To use websites that generated body simulation such as Bodyvisualizer and 3D Humam body Generator. These websites generated 3D human body just like what we wanted, however the main issue is the websites don't have API. Our option was now either websraping or using AI tools. To web scrape using beautifulsoup on our back end and retrieve the 3D objects. Setting the ethics aside, however this wasn't working, since the 3D objects needed to be generated based on our inputs. The remaining potential option(which we couldn't realize due to time constraint) is to train a custom robot in browser.ai, and use it to fill the forms and download the 3D model from those websites. If this is possible, we could use our back end to to get the data from user and render the 3D model and send it to the frontend
