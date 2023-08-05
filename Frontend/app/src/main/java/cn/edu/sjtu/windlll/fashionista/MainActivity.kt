@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         button_home3 = findViewById(R.id.button_home3);
         button_home3.setOnClickListener{//
-            val intent = Intent(this,itemlist_Cart::class.java);
+            val intent = Intent(this,ShoppingCartActivity::class.java);
             startActivity(intent);
         }
     }
