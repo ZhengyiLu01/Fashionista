@@ -1,4 +1,6 @@
 # Getting Started
+This is a project for VE441: App Development for Entrepreneurs (2023 Summer Semester).
+You can have access to our project cloned from github.com or Github Desktop.
 ## Front-end Dependencies
 
 The front-end of the Android app relies on the following third-party tools, libraries, and SDKs:
@@ -107,5 +109,10 @@ Work on front-end.
 
 ### Zhengyi Lu
 Contributions:
-Implement the front-end view, including main activity and body modeling activity. Design UI for home page and generate model part. Help with the cart and link part.
+For code part, implement the front-end view, including main activity and body modeling activity. Generate an initial structure for the Shopping activity.
+Design UI for home page and generate model part. Design the whole structure of the app, including the page transition flow.
+Help with the cart and link part. Improve the cart UI to make it consistant with the whole app. Help debug with the data transmission between cart and the receipt.
+For paperwork, design the texts and slides for all presentations. Write the UI/UX part in the final document.
+
+##Challenges:
 

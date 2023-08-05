@@ -16,8 +16,9 @@ class ShopActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.shop)
         shop.addItemToShop(1,"Item 1", 10.0 , "google.com",4.0,null)
-        shop.addItemToShop(2,"Item 2", 20.0 , "naver.com",4.6,null)
-        shop.addItemToShop(3,"Item 3", 30.0 , "youtube.com",4.2,null)
+        shop.addItemToShop(2,"Item 2", 20.0 , "adidas.com",4.6,null)
+        shop.addItemToShop(3,"Item 3", 30.0 , "nike.com",4.2,null)
+        shop.addItemToShop(4,"Item 4", 250.0 , "guvvi.com",4.2,null)
 
         val recyclerView: RecyclerView = findViewById(R.id.shop_recycler_view)
         val shopItemAdapter = ShopItemAdapter(shop.getShopItems())
