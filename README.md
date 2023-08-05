@@ -73,6 +73,7 @@ Some functionalities were found to be complicated/time-consuming.
 ### Home Page
 ● Using concise buttons for the home page to ensure that users can easily turn to the three functions of our app: modeling, try-on and cart
 
+
 ● Both suitable for first-time and regular users, they can choose to start from the very beginning steps of modeling or directly search for clothes with existing models
 ![Finaljustification_1](https://github.com/ZhengyiLu01/Fashionista/blob/main/images/Finaljustification_1.png)
 ### Collect Size
