@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-
+import java.io.Serializable
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,6 +18,12 @@ class MainActivity : AppCompatActivity() {
         button_home1 = findViewById(R.id.button_home1);
         button_home1.setOnClickListener{//
             val intent = Intent(this,Generatemodel::class.java);
+            startActivity(intent);
+        }
+
+        button_home2 = findViewById(R.id.button_home2);
+        button_home2.setOnClickListener{//
+            val intent = Intent(this,ShopActivity::class.java);
             startActivity(intent);
         }
 
